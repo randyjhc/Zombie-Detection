@@ -2,7 +2,13 @@
 
 In this repository, we utilize the `Object Detection API` and retrain `RetinaNet` to detect zombies using only 5 training images. The model is set up to restore pretrained weights and fine-tune the classification layers.
 
-## Training Samples
+# Prediction Results
+
+To test the performance of the fine-tuned model, we used a series of 237 zombie walking frames.
+
+![Zombie-walk-frames](./results/03-zombie-anim.gif)
+
+# Training Samples
 Below are the five training samples used:
 
 ![Zombie-samples](./results/01-training-samples.png)
@@ -22,8 +28,4 @@ The loss is computed by considering both the classification loss and the boundin
 
 ![loss-trend](./results/02-loss-trend.png)
 
-# Prediction Results
 
-To test the performance of the fine-tuned model, we used a series of 237 zombie walking frames.
-
-![Zombie-walk-frames](./results/03-zombie-anim.gif)
